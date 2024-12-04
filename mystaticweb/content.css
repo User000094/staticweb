@@ -196,5 +196,19 @@
     p{
         font-size:10px;
     }
+    #chat_with{
+        height: 40px;
+        width: 40px ;
+        position: fixed;
+        right: 10px;
+        bottom: 60px;
+        border-radius: 15px;
+        border: none;
+        background-image: url("images/chat.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:98%;
+
+    }
     
 }

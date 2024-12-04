@@ -1,0 +1,14 @@
+#m{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#but{
+    border: none;
+    border-radius: 10px;
+    font-size: 9px;
+    background-color: #1A5319;
+    color: antiquewhite;
+    padding: 3px;
+    text-align: center;
+    margin-left: 10px;
+}

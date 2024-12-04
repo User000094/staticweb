@@ -1,72 +1,250 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#head{
-    background-color: #D6EFD8;
-}
-#app_name{
-    margin-top: 18px;
-    margin-left: 15px;
-}
-/* .rigth-p>ol>li>a{
-    background-color:  #0F1035;
-} */
-#pp{
-    background-color: #1A5319;
-    height:auto;
-    width: auto;
-    padding-top: 110px;
-    padding-left:20px ;
-    padding-right: 20px;
-    padding-bottom:20px ;
 
-}
-
-
-#each_content{
-        background-color:#508D4E;
-        height: 500px;
-        margin-top: 45px;
-        padding: 10px;
-        display: flex;
-        flex: row; 
-        width:98%;
-        border: 0.5px solid black;
-        border-radius: 20px;
-        align-items: center;
-        gap: 40px;
+@media screen and (max-width:2000px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-#img-box{
-    height: 90%;
-    width: 35%;
-    margin-left: 20px;
-    background-color:#80af8148;
-    border-radius: 25px;
-    align-items: center;
-    padding: 10px;
+    #head{
+        background-color: #D6EFD8;
+    }
+    #app_name{
+        margin-top: 18px;
+        margin-left: 15px;
+    }
+    #pp{
+        background-color: #1A5319;
+        height:auto;
+        width: auto;
+        padding-top: 110px;
+        padding-left:20px ;
+        padding-right: 20px;
+        padding-bottom:20px ;
 
+    }
+
+
+    #each_content{
+            background-color:#508D4E;
+            height: 500px;
+            margin-top: 45px;
+            padding: 10px;
+            display: flex;
+            flex: row; 
+            width:98%;
+            border: 0.5px solid black;
+            border-radius: 20px;
+            align-items: center;
+            gap: 40px;
+        }
+    #img-box{
+        height: 90%;
+        width: 35%;
+        margin-left: 20px;
+        background-color:#80af8148;
+        border-radius: 25px;
+        align-items: center;
+        padding: 10px;
+
+    }
+    #img-1{
+        height: 200px;
+        width:200px;
+        border-radius:50% ;
+        margin-left: 130px;
+    }
+    #about{
+        font-size: 17px;
+    }
+    #name{
+        color: #1A5319;
+        padding-top: 10px;
+        font-size:30px;
+        text-align: center;
+    }
+    #info-box{
+        height: 90%;
+        width: 59%;
+        background-color: #80af8147;
+        border-radius: 25px;
+        padding: 20px;
+    }
 }
-#img-1{
-    height: 200px;
-    width:200px;
-    border-radius:50% ;
-    margin-left: 130px;
+
+@media screen and (max-width:1500px) {
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #head{
+        background-color: #D6EFD8;
+    }
+    #app_name{
+        margin-top: 18px;
+        margin-left: 15px;
+    }
+    #pp{
+        background-color: #1A5319;
+        height:auto;
+        width: auto;
+        padding-top: 110px;
+        padding-left:20px ;
+        padding-right: 20px;
+        padding-bottom:20px ;
+
+    }
+    #each_content{
+            background-color:#508D4E;
+            height: 500px;
+            margin-top: 45px;
+            padding: 10px;
+            display: flex;
+            flex: row; 
+            width:98%;
+            border: 0.5px solid black;
+            border-radius: 20px;
+            align-items: center;
+            gap: 40px;
+        }
+    #img-box{
+        height: 90%;
+        width: 35%;
+        margin-left: 20px;
+        background-color:#80af8148;
+        border-radius: 25px;
+        align-items: center;
+        padding: 10px;
+
+    }
+    #img-1{
+        height: 200px;
+        width:200px;
+        border-radius:50% ;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #about{
+        font-size: 17px;
+    }
+    #name{
+        color: #1A5319;
+        padding-top: 10px;
+        font-size:30px;
+        text-align: center;
+    }
+    #info-box{
+        height: 90%;
+        width: 59%;
+        background-color: #80af8147;
+        border-radius: 25px;
+        padding: 20px;
+    }
 }
-#about{
-    font-size: 17px;
+@media screen and (max-width:1170px) {
+
+    #img-1{
+        height: 200px;
+        width:200px;
+        border-radius:50% ;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
 }
-#name{
-    color: #1A5319;
-    padding-top: 10px;
-    font-size:30px;
-    text-align: center;
+@media screen and (max-width:1000px) {
+
+    #img-1{
+        height: 150px;
+        width:150px;
+        border-radius:50% ;
+        margin-left: 30px;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
 }
-#info-box{
-    height: 90%;
-    width: 59%;
-    background-color: #80af8147;
-    border-radius: 25px;
-    padding: 20px;
+@media screen and (max-width:470px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #head{
+        background-color: #D6EFD8;
+    }
+    #app_name{
+        margin-top: 18px;
+        margin-left: 15px;
+    }
+    #pp{
+        background-color: #1A5319;
+        height:auto;
+        width: auto;
+        padding-top: 110px;
+        padding-left:20px ;
+        padding-right: 20px;
+        padding-bottom:20px ;
+
+    }
+
+
+    #each_content{
+            background-color:#508D4E;
+            height: 500px;
+            display: block;
+            margin-left:auto;
+            margin-right: auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            width:98%;
+            border: 0.5px solid black;
+            border-radius: 20px;
+            align-items: center;
+            gap: 40px;
+        }
+    #img-box{
+        height:auto;
+        width:90%;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        background-color:#80af8148;
+        border-radius: 15px;
+        align-items: center;
+        padding: 10px;
+
+    }
+    #img-1{
+        height: 100px;
+        width:100px;
+        border-radius:50% ;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #about{
+        font-size: 7px;
+    }
+    #name{
+        color: #1A5319;
+        padding-top: 10px;
+        font-size:10px;
+        text-align: center;
+    }
+    #info-box{
+        height:auto;
+        width:90%;
+        background-color: #80af8147;
+        border-radius: 15px;
+        padding: 20px;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
 }
